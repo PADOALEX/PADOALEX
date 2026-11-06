@@ -1,38 +1,72 @@
-# Oleksandr Durmanenko
+<div align="center">
+  <h1>Oleksandr Durmanenko</h1>
+  <p><strong>.NET / Full-Stack Developer</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/C%23%20%C2%B7%20.NET-512BD4?style=flat-square&amp;logo=dotnet&amp;logoColor=white" alt="C# and .NET" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/oleksandr-durmanenko/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/PADOALEX?tab=repositories">All repositories</a>
+  </p>
+</div>
 
-### .NET / Full-Stack Developer
+I build .NET APIs and full-stack applications, focusing on data integrity, reliable workflows and automated tests. Systems Analysis student at Ivan Franko National University of Lviv.
 
-**C# · ASP.NET Core · PostgreSQL · React**
+## Featured projects
 
-I study Systems Analysis at Ivan Franko National University of Lviv and build backend and full-stack applications. My projects focus on REST APIs, relational data integrity, transaction safety, concurrency and automated testing. I work through bugs with reproducible tests and keep architecture and setup instructions close to the code.
+**[EventFlow](https://github.com/PADOALEX/PADO-EventFlow)** · React / ASP.NET Core / PostgreSQL<br>
+Event management with server-side filtering, validation and API/browser tests.
 
-## Featured Engineering Projects
+**[BankCore](https://github.com/PADOALEX/PADO-BankCore)** · ASP.NET Core / EF Core / PostgreSQL<br>
+Educational banking API with atomic transfers, idempotency and consistent ledger reconciliation.
 
-| Project | Application and stack | Engineering highlight |
-| --- | --- | --- |
-| [BankCore](https://github.com/PADOALEX/PADO-BankCore) | Educational banking backend · ASP.NET Core, EF Core, PostgreSQL | Atomic transfers, request idempotency, ordered row locks and ledger reconciliation |
-| [ShopCore](https://github.com/PADOALEX/PADO-ShopCore) | E-commerce REST API · ASP.NET Core, PostgreSQL, JWT | Serializable checkout, conditional inventory updates and validated order transitions |
-| [EventFlow](https://github.com/PADOALEX/PADO-EventFlow) | Event workspace · React, ASP.NET Core, PostgreSQL | Server filtering and pagination, API validation, component and browser tests |
-| [StudioOps](https://github.com/PADOALEX/PADO-StudioOps) | Studio management and Kanban · .NET, JavaScript, PostgreSQL | Cookie authentication, project membership checks and optimistic task revisions |
-| [ContactFlow](https://github.com/PADOALEX/ContactManager) | Contact management · ASP.NET Core MVC, Dapper, SQL Server | Validated atomic CSV imports, duplicate handling and SQL-backed repository tests |
-| [GamePulse](https://github.com/PADOALEX/PADO-GamePulse) | Steam profile explorer · C#, Avalonia, MVVM | Bounded HTTP reads, cancellation, retries, cache behavior and explicit unavailable-data states |
+**[StudioOps](https://github.com/PADOALEX/PADO-StudioOps)** · .NET / JavaScript / PostgreSQL<br>
+Studio management and Kanban with role-based access, project membership and optimistic task revisions.
 
-These are personal and academic projects. The repositories document what is implemented, how to run it and what remains outside their scope. Banking transactions, payments and refunds in these projects are simulations.
+**[ShopCore](https://github.com/PADOALEX/PADO-ShopCore)** · ASP.NET Core / PostgreSQL / JWT<br>
+E-commerce API with transactional checkout, stock protection and validated order transitions.
+
+**[ContactFlow](https://github.com/PADOALEX/ContactManager)** · ASP.NET Core MVC / Dapper / SQL Server<br>
+Contact management with validated atomic CSV imports and SQL-backed repository tests.
+
+**[GamePulse](https://github.com/PADOALEX/PADO-GamePulse)** · C# / Avalonia / MVVM<br>
+Steam profile explorer with cancellation, retries, caching and clear unavailable-data states.
+
+<details>
+<summary>View application screenshots</summary>
+
+### EventFlow
+
+[![EventFlow event workspace](https://raw.githubusercontent.com/PADOALEX/PADO-EventFlow/main/docs/screenshots/events-main.jpg)](https://github.com/PADOALEX/PADO-EventFlow)
+
+### StudioOps
+
+[![StudioOps Kanban board](https://raw.githubusercontent.com/PADOALEX/PADO-StudioOps/main/docs/screenshots/board.jpg)](https://github.com/PADOALEX/PADO-StudioOps)
+
+Captured from the running applications with synthetic demonstration data.
+
+</details>
 
 ## Technology stack
 
-| Area | Tools used in my projects |
-| --- | --- |
-| Backend | C#, .NET, ASP.NET Core, Entity Framework Core, Dapper |
-| Frontend | React, JavaScript, HTML, CSS |
-| Databases | PostgreSQL, SQL Server |
-| Desktop | Avalonia, MVVM |
-| Engineering | Git, GitHub Actions, Docker Compose, OpenAPI, xUnit, Jest, Playwright |
+**Backend:** C# · .NET · ASP.NET Core · Entity Framework Core · Dapper<br>
+**Frontend:** React · JavaScript · HTML · CSS<br>
+**Databases:** PostgreSQL · SQL Server<br>
+**Desktop:** Avalonia · MVVM<br>
+**Engineering:** Git · GitHub Actions · Docker Compose · OpenAPI · xUnit · Jest · Playwright
 
-## Fundamentals and learning
+<details>
+<summary>Fundamentals, learning and how I work</summary>
 
-[C# AlgorithmLab](https://github.com/PADOALEX/PADO-AlgorithmLab) covers data structures and sorting. [NumericalLab](https://github.com/PADOALEX/PADO-NumericalLab) covers numerical methods and reproducible reports. I am also learning Java fundamentals and Spring through [Java AlgorithmLab](https://github.com/PADOALEX/PADO-Java-AlgorithmLab) and [Java EventFlow](https://github.com/PADOALEX/PADO-Java-EventFlow).
+[C# AlgorithmLab](https://github.com/PADOALEX/PADO-AlgorithmLab) covers data structures and sorting; [NumericalLab](https://github.com/PADOALEX/PADO-NumericalLab) covers numerical methods and reproducible reports.
 
-I use AI coding tools for implementation assistance, debugging and exploring designs, and verify changes with builds and tests. My earlier game development work informs my interest in practical application workflows; my current portfolio focus is .NET and full-stack engineering.
+I am learning Java and Spring through [Java AlgorithmLab](https://github.com/PADOALEX/PADO-Java-AlgorithmLab) and [Java EventFlow](https://github.com/PADOALEX/PADO-Java-EventFlow).
 
-[LinkedIn](https://www.linkedin.com/in/oleksandr-durmanenko/) · [GitHub repositories](https://github.com/PADOALEX?tab=repositories)
+I use AI coding tools for implementation assistance, debugging and exploring designs. I verify changes with builds and tests, and document setup steps and design decisions in each repository.
+
+</details>
+
+Personal and academic projects. Banking and payment flows are educational simulations.
